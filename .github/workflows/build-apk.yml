@@ -32,7 +32,7 @@ jobs:
       - name: Install dependencies
         run: npm install    
       - name: Install Android platform package
-        run: npm install @capacitor/android
+        run: npm install @capacitor/android@^7.4.3
 
       - name: Build game
         run: npm run build
